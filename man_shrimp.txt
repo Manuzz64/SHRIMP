@@ -1,0 +1,84 @@
+███████╗██╗  ██╗██████╗ ██╗███╗   ███╗██████╗ 
+██╔════╝██║  ██║██╔══██╗██║████╗ ████║██╔══██╗
+███████╗███████║██████╔╝██║██╔████╔██║██████╔╝
+╚════██║██╔══██║██╔══██╗██║██║╚██╔╝██║██╔═══╝ 
+███████║██║  ██║██║  ██║██║██║ ╚═╝ ██║██║     
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝     
+Sense  HAT  Really  Incredible  Music  Player
+
+  _   _                ___      _    _     
+ | | | |___ ___ _ _   / __|_  _(_)__| |___ 
+ | |_| (_-</ -_) '_| | (_ | || | / _` / -_)
+  \___//__/\___|_|    \___|\_,_|_\__,_\___|
+                                           
+Before iniciating the SHRIMP, make sure:
+	- All the depndencies have been installed:
+	
+	  "sudo apt update && sudo apt install -y 
+	  vlc sense-hat && pip install python-vlc 
+	  mutagen sense_emu && sudo reboot"
+	
+	- You've configured lines 25 - 28
+	  of the code as you like
+	
+	- All the music filesare either MP3
+	  or FLAC
+	
+	- Your Sense HAT is mounted on the 
+	  Raspberry Pi correctly
+	
+Before turning the SHRIMP on, note that it is made
+for vertical use, with the joystick below the screen,
+just pick it up with the USB ports facing down,
+and make sure to use the lower part of a normal case
+or a dedicated Sense HAT case, to prevent damage to
+the Pi, and to your hands
+
+
+     _____        _____         _____     
+  __|___  |__  __|__   |__  ___|   _ |__  
+ |   ___|    |/     \     ||    \ | |   | 
+ |   |__     ||     |     ||     \| |   | 
+ |______|  __|\_____/   __||__/\____| __| 
+    |_____|      |_____|       |_____|    
+     _____        _____         _____     
+ ___|__   |__  __|__   |__  ___|__   |__  
+|_    _|     ||     |     |/      \     | 
+ |    |      ||     \     ||      |     | 
+ |____|    __||__|\__\  __|\______/   __| 
+    |_____|      |_____|       |_____|    
+            _____        _____     
+         __|_    |__  __|___  |__  
+        |    |      ||   ___|    | 
+        |    |_     | `-.`-.     | 
+        |______|  __||______|  __| 
+           |_____|      |_____|    
+                            
+Main Menu: 
+	UP: +10 Volume
+	DOWN: -10 Volume
+	LEFT: Music Selection
+	RIGHT: Next Song
+	PRESS: Play/Pause
+	
+Select Song (Character Selection): 
+	UP: Exit to Main Menu
+	DOWN: Enter unfiltered Song Selection
+	LEFT: Previous Character
+	RIGHT: Next Character
+	PRESS: Select Character
+	
+Select Song (Title Selection): 
+	UP: Back to Character Selection
+	DOWN: Enter unfiltered Song Selection
+	LEFT: Previous Title
+	RIGHT: Next Title
+	PRESS: Select Character
+	
+ ____ __    _____  ___  __  __ _____ _____ 
+((    ||    ||==  ||=|| ||\\|| ||==  ||_// 
+ \\__ ||__| ||___ || || || \|| ||___ || \\ 
+
+To turn the SHRIMP off, just stop the code, but it leaves
+LEDs that were being used still on.
+To solve that, run the cleaner, as simple as that :)
