@@ -22,7 +22,7 @@ C_ORANGE = (255, 165, 0)
 C_CYAN = (0, 255, 255)
 
 # configuration
-MUSIC_DIR = "/home/manuel/Music" # <--- IMPORTANT: SET YOUR ACTUAL MUSIC FOLDER PATH
+MUSIC_DIR = "/home/[your_username_here]/Music" # <--- IMPORTANT: SET YOUR ACTUAL MUSIC FOLDER PATH
 DEFAULT_VOLUME = 70              # Default volume percentage (0-100)
 DISPLAY_IDLE_INTERVAL = 60       # Show song title every X seconds in Playing Now mode
 sense.low_light = True           # Level of brightness (True: Low / False: High)
