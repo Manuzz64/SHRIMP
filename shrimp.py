@@ -121,8 +121,8 @@ def startup_animation():
         time.sleep(0.15)
     sense.clear() # Clear after animation ends
 
-    scroll_text_blocking("MPi3", text_colour=C_GREEN, scroll_speed=0.05)
-    scroll_text_blocking("PLAYER", text_colour=C_WHITE, scroll_speed=0.05)
+    scroll_text_blocking("SHRIMP", text_colour=C_GREEN, scroll_speed=0.05)
+    scroll_text_blocking("Sense HAT Really Incredible Music Player", text_colour=C_WHITE, scroll_speed=0.05)
     scroll_text_blocking("LOADING...", text_colour=C_YELLOW, scroll_speed=0.05)
 
 
