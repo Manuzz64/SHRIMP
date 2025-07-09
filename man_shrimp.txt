@@ -73,7 +73,7 @@ Select Song (Title Selection):
 	DOWN: Enter unfiltered Song Selection
 	LEFT: Previous Title
 	RIGHT: Next Title
-	PRESS: Select Character
+	PRESS: Select Title
 	
  ____ __    _____  ___  __  __ _____ _____ 
 ((    ||    ||==  ||=|| ||\\|| ||==  ||_// 
